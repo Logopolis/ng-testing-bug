@@ -1,0 +1,6 @@
+<p *ngIf="dependencyOb$ | async as dependencyOb; else nodependency">
+  {{ dependencyOb }}
+</p>
+<ng-template #nodependency>
+  <p>The dependency observable had no value</p>
+</ng-template>

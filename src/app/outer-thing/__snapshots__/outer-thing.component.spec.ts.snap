@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OuterThingComponent should match snapshot 1`] = `
+<app-outer-thing>
+  <p>
+    outer-thing works!
+  </p><app-inner-thing>
+    <p>
+      inner-thing works!
+    </p>
+    <app-dependency>
+      <p>
+         Test value
+      </p>
+    </app-dependency>
+  </app-inner-thing>
+</app-outer-thing>
+`;
